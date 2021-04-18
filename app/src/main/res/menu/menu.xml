@@ -3,16 +3,17 @@
 
     <item
         android:id="@+id/homeFragment"
-        android:icon="@drawable/ic_home"
-        android:title="@string/home" />
-    <item
-        android:id="@+id/matchFragment"
-        android:icon="@drawable/ic_match"
-        android:title="@string/match" />
+        android:icon="@drawable/ic_hikaye"
+        android:title="Hikaye" />
     <item
         android:id="@+id/messageFragment"
         android:icon="@drawable/ic_message"
         android:title="@string/message" />
+    <item
+        android:id="@+id/matchFragment"
+        android:icon="@drawable/ic_shuffle"
+        android:title="@string/match" />
+
     <item
         android:id="@+id/profileFragment"
         android:icon="@drawable/ic_profile"
