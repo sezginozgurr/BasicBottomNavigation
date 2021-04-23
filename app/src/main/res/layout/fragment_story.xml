@@ -8,29 +8,30 @@
     android:orientation="vertical"
     tools:context=".fragments.StoryFragment">
 
-    <RelativeLayout
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/ic_background_sotry_header"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
             android:layout_marginHorizontal="16dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical"
             android:text="Uygulama Adi"
             android:textSize="26sp"
             android:textStyle="bold" />
 
         <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_margin="8dp"
-            android:src="@drawable/ic_add_story_icon" />
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_camera" />
 
-    </RelativeLayout>
+    </FrameLayout>
 
 
     <androidx.recyclerview.widget.RecyclerView

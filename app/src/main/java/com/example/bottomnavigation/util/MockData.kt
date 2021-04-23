@@ -1,5 +1,6 @@
 package com.example.bottomnavigation.util
 
+import com.example.bottomnavigation.model.ChipModel
 import com.example.bottomnavigation.model.FollowModel
 import com.example.bottomnavigation.model.MessageModel
 import com.example.bottomnavigation.model.StoryModel
@@ -379,6 +380,17 @@ object MockData {
         return shuffle
     }
 
+    fun getChips(): ArrayList<ChipModel> {
+        val chips = ArrayList<ChipModel>()
+        chips.add(ChipModel("Spor"))
+        chips.add(ChipModel("Makyaj"))
+        chips.add(ChipModel("Film"))
+        chips.add(ChipModel("Fitness"))
+        chips.add(ChipModel("Zibab"))
+        chips.add(ChipModel("Ivjj"))
+        return chips
+    }
+
     fun followingList(): ArrayList<FollowModel> {
         val follow = ArrayList<FollowModel>()
         follow.add(
@@ -397,12 +409,6 @@ object MockData {
             FollowModel(
                 "https://img.tozlu.com/Uploads/UrunResimleri/Thumb/tek-cepli-erkek-t-shirt-f288.jpg",
                 "Emre"
-            )
-        )
-        follow.add(
-            FollowModel(
-                "http://www.madmext.com/Uploads/UrunResimleri/buyuk/madmext-slim-fit-cizgili-siyah-erkek-gom-1d39.jpg",
-                "Burcay"
             )
         )
         follow.add(
