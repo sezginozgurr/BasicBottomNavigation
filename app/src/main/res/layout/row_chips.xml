@@ -7,7 +7,7 @@
         android:id="@+id/chips"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
+        android:layout_marginHorizontal="4dp"
         android:text="Aaaaa"/>
 
 </FrameLayout>
